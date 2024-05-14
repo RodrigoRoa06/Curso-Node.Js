@@ -1,0 +1,46 @@
+#sn{
+    height: 100vh;
+    width: 100vw;
+   
+    padding-top: 0;
+}
+
+.banner {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.banner h1 {
+    color: var(--color-fuente-1);
+    font-size: var(--tamaño-fuente-2);
+
+
+}
+address{
+    font-size: var(--tamaño-fuente-4);
+}
+.banner_content {
+    color: var(--color-fuente-1);
+    position: absolute;
+    z-index: 1;
+    margin: 3vh;
+    padding: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--color-sombra-1);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px var(--color-sombra-1);
+}
+.video_background {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.25);
+}
