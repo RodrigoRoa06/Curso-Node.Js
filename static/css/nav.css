@@ -1,0 +1,123 @@
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    position: fixed;
+    z-index: 3;
+    flex-direction: row;
+    top: 0;
+    flex-wrap: nowrap;
+    padding: 10px;
+
+   
+
+}
+
+nav {
+    width: 90vw;
+    padding-left: 20px;
+
+
+}
+
+.logo {
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 80px;
+    width: 80px;
+    filter: none;
+}
+
+.container_nav {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+
+}
+
+.container_nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    gap: 1vw;
+    padding-right: 20px;
+    background-color: var(--color-sombra-1);
+
+}
+
+.container_nav li {
+    margin: 6px 0;
+    list-style: none;
+
+
+}
+
+.container_nav li a {
+    text-decoration: none;
+    font-size: var(--tamaño-fuente-4);
+    font-family: var(--fuente-1);
+    
+
+}
+
+.container_nav li i {
+    margin-right: 1vw;
+}
+
+.container_nav li a,
+i {
+    color: var(--color-fuente-1);
+
+}
+
+header .container {
+    height: 10vh;
+}
+
+/* Efectos */
+.container_nav li {
+    color: var(--color-fuente-2);
+    text-decoration: none;
+    padding: 0 9px;
+    transition: 0.2s ease ;
+
+
+}
+.container_nav li:hover{
+  transform:scale(1.2,1.2);
+
+}
+.container_nav li::before {
+    margin-left: auto;
+}
+
+.container_nav li::after,
+.container_nav li::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: var(--color-terciario);
+    display: block;
+    transition: 0.5s;
+    padding: -20px;
+    
+}
+
+.container_nav li:hover::after,.container_nav li:hover::before {
+    width: 100%;    
+    box-shadow: 0 0 12px var(--color-terciario);
+}
+
+
+
