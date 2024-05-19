@@ -1,6 +1,6 @@
 @import url(nav.css);
 @import url(banner.css);
-
+@import url(productos.css);
 
 :root {
     --color-primario: #00000E;
