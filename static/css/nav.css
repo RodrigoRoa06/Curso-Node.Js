@@ -1,13 +1,10 @@
 header {
-    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 7vh;
     position: fixed;
-    z-index: 3;
+    z-index: 2;
     flex-direction: row;
-    top: -10;
     flex-wrap: nowrap;
     padding: 10px;
 

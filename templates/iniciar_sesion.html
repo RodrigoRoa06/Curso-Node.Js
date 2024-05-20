@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/login.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../static/img/favicon.ico" type="image/x-icon">
+    <title>Login</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../static/img/back.png" alt="Almacen_lo_de_Matias_Logo">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="container-form">
+            <div class="container-login">
+                <h3>Login</h3>
+                <form action="#">
+                    <label for="username">Username or Email<input type="text" id="username"
+                            placeholder="Username or Email"></label>
+                    <label for="password">Password<input type="text" id="password" placeholder="Password"></label>
+                    <input type="submit" value="Login" class="btn">
+                    <div class="container-span">
+                        <span><input type="checkbox">Remeber me</span>
+                        <span><a href="#">Forgot your password?</a></span>
+
+                    </div>
+                </form>
+            </div>
+            <div class="container-otherside">
+                <img src="../static/img/logo.png" alt="">
+                <hr>
+                <h2>Bienvenidos</h2>
+                <hr>
+                <span>Don't have a account?<a href="../templates/register.html">Register here</a></span>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
 </body>
+
 </html>
