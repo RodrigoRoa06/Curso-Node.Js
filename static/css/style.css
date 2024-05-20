@@ -1,18 +1,17 @@
 @import url(nav.css);
 @import url(banner.css);
 @import url(productos.css);
+@import url(footer.css);
 
 :root {
-    --color-primario: #00000E;
-    --color-secundario: #3E3E3E;
-    --color-terciario: #4900FF;
-  
-  
-  
-    --color-sombra-1: #242424a8;
-    --color-fuente-1: #C9C9C9;
-    --color-fuente-2: #4900FF;
-  
+  --color-primario: #fcfcfc;
+  --color-secundario: #3E3E3E;
+  --color-terciario: #a7a7a7;
+
+  --color-sombra-1: #e4e4e4d7;
+  --color-fuente-1: #222222;
+  --color-fuente-2: #eeeeee;
+
   
     
     --fuente-1: "Space Grotesk", 'Lucida Sans Regular';

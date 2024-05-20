@@ -1,0 +1,66 @@
+footer{
+    width: 100vw;
+    height: 20vh;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-secundario);
+}
+
+.footer-sector1{
+    margin:10px 0;
+    border-bottom: 1px solid var(--color-primario);
+}
+.footer-sector1 ul{
+    list-style: none;
+    text-align: center;
+
+}
+.footer-sector1 ul li a{
+    text-decoration: none;
+    color: var(--color-fuente-2);
+    font-size: var(--tamaño-fuente-3);
+
+}
+.footer-sector1 ul li{
+    padding: 5px 0;
+    
+}
+.footer-sector2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0;
+    color: var(--color-fuente-2);
+}
+.footer-sector2 h3{
+    font-size: var(--tamaño-fuente-2);
+}
+.footer-sector2 p{
+    font-size: var(--tamaño-fuente-3);
+    text-align: center;
+
+    color: rgb(0, 255, 76);
+    transition: 0.5s;
+}
+.footer-sector2 p i{
+    font-size: var(--tamaño-fuente-2);
+    color: rgb(0, 255, 76);
+}
+
+/*-----------EFECTOS---------*/
+
+.footer-sector1 ul li a:hover{
+   color: var(--color-fuente-1);
+   border-bottom: solid 2px var(--color-terciario);
+    
+}
+.footer-sector2 p:hover{
+    transform:scale(1.2);
+
+}
