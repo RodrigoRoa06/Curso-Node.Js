@@ -6,7 +6,7 @@
 :root {
   --color-primario: #fcfcfc;
   --color-secundario: #3E3E3E;
-  --color-terciario: #a7a7a7;
+  --color-terciario: #1c94c4;
 
   --color-sombra-1: #e4e4e4d7;
   --color-fuente-1: #222222;
@@ -26,6 +26,11 @@
   }
 
 
-  body{
+  html,body{
+    margin: 0;
+    padding:0;
     background: var(--color-primario);
+    overflow-x: hidden;
+    width: 100vw;
   }
+  

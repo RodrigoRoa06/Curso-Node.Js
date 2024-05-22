@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/css/style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="shortcut icon" href="./static/img/favicon.ico" type="image/x-icon">
     <title>Almacen lo de Matias</title>
 </head>
@@ -24,7 +28,7 @@
                     <li><a href="#sn"><i class="fa-solid fa-users"></i>Sobre nosotros</a></li>
                     <li><a href="#ofertas"><i class="fa-solid fa-percent"></i>Ofertas</a></li>
                     <li><a href="#productos"><i class="fa-solid fa-bottle-water"></i></i>Productos</a></li>
-                    <li><a href="templates/iniciar_sesion.html" type="_blank"><i class="fa-solid fa-right-to-bracket"></i>Iniciar sesión</a></li>
+                    <li id="login"><a href="templates/iniciar_sesion.html" type="_blank"><i class="fa-solid fa-right-to-bracket"></i>Iniciar sesión</a></li>
                 </ul>
             </div>
         </nav>
@@ -32,7 +36,7 @@
 
 
     <main>
-        <section id="#sn" class="banner container">
+        <section id="sn" class="banner container">
             <div class="banner_content">
                 <h1>Almacen lo de Matias</h1>
                 <p>Tu lugar de confianza para abastecer tus necesidades diarias. Ofrecemos una amplia variedad de productos, desde alimentos básicos hasta artículos de limpieza y más.</p>
@@ -52,54 +56,62 @@
                 Tu navegador no soporta la etiqueta de video.
             </video>
         </section>
-        <section class="ofertas">
-            <div class="mostrador" id="mostrador">
-              <div class="fila">
-                <div class ="item">
-                  <div class="contenedor-foto">
-                    <img src="./static/img/1.png" alt="Producto 1">
-                    <p class="descripcion">Producto 1</p>
-                    <span class="precio">$42.499</span>
         
-                    
+                <section id="ofertas" class="ofertas">
+                  <!-- <h3>Mati Ofertas</h3> -->
+                  <div class="mostrador" id="mostrador">
+                    <div class="fila">
+                      <div class ="item">
+                        <div class="contenedor-foto">
+                          <img src="./static/img/fideos luchetti.png" alt="Producto 1">
+                          <p class="descripcion">Tirabuzon 500gr</p>
+                          <span class="precio">$1.499</span>
+              
+                          
+                        </div>
+                      </div>
+                      <div class ="item">
+                        <div class="contenedor-foto">
+                          <img src="./static/img/aceite cocinero.png" alt="Producto 1">
+                          <p class="descripcion">Aceite 1.5lt</p>
+                          <span class="precio">$3.599</span>
+                        </div>
+                      </div>
+                      <div class ="item">
+                        <div class="contenedor-foto">
+                          <img src="./static/img/pure de tomate.png" alt="Producto 1">
+                          <p class="descripcion">Puré de tomate 500cc.</p>
+                          <span class="precio">$999</span>
+                        </div>
+                      </div>
+                      <div class ="item">
+                        <div class="contenedor-foto">
+                          <img src="./static/img/lamorenita.png" alt="Producto 1">
+                          <p class="descripcion">Café 500gr.</p>
+                          <span class="precio">$3.999</span>
+                        </div>
+                      </div>
+                      <div class ="item">
+                        <div class="contenedor-foto">
+                          <img src="./static/img/fideos luchetti.png" alt="Producto 1">
+                          <p class="descripcion">Tirabuzón 1kg.</p>
+                          <span class="precio">$3.999</span>
+                        </div>
+                      </div>
+                      <div class ="item">
+                        <div class="contenedor-foto">
+                          <img src="./static/img/arroz gallo.png" alt="Producto 1">
+                          <p class="descripcion">Arroz 1kg.</p>
+                          <span class="precio">$3.599</span>
+                        </div>
+                      </div>
+              
+                    </div>
+                    <!-- <img src="./img/1.png" alt="Producto 1">
+                    <h3>Producto 1</h3>
+                    <p>Precio: $3999.90</p> -->
+                    <span class="descuento">-15%</span>
                   </div>
-                </div>
-                <div class ="item">
-                  <div class="contenedor-foto">
-                    <img src="./static/img/1.png" alt="Producto 1">
-                    <p class="descripcion">Producto 2</p>
-                    <span class="precio">$30.599</span>
-                  </div>
-                </div>
-                <div class ="item">
-                  <div class="contenedor-foto">
-                    <img src="./static/img/1.png" alt="Producto 1">
-                    <p class="descripcion">Producto 3</p>
-                    <span class="precio">$33.999</span>
-                  </div>
-                </div>
-                <div class ="item">
-                  <div class="contenedor-foto">
-                    <img src="./static/img/1.png" alt="Producto 1">
-                    <p class="descripcion">Producto 1</p>
-                    <span class="precio">$39.999</span>
-                  </div>
-                </div>
-                <div class ="item">
-                  <div class="contenedor-foto">
-                    <img src="./static/img/1.png" alt="Producto 1">
-                    <p class="descripcion">Producto 1</p>
-                    <span class="precio">$39.999</span>
-                  </div>
-                </div>
-                <div class ="item">
-                  <div class="contenedor-foto">
-                    <img src="./static/img/1.png" alt="Producto 1">
-                    <p class="descripcion">Producto 1</p>
-                    <span class="precio">$39.999</span>
-                  </div>
-                </div>
-        
               </div>
               <!-- <img src="./img/1.png" alt="Producto 1">
               <h3>Producto 1</h3>
@@ -125,7 +137,7 @@
               </div> -->
             </div>
           </section>  
-        <section>
+        <section id="productos">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
         
@@ -142,7 +154,7 @@
                   <p>Mezclado exclusivamente con whiskies madurados por al menos 12 años, reúne sabores de los 4 rincones de Escocia para crear una experiencia compleja, profunda y enriquecedora.</p>
                 </div> 
               <div class="producto-img">
-                <img src="./img/1.png" alt="">
+                <img src="./static/img/1.png" alt="">
               </div>
               </div>
             <a href="#" class="btn-1">Comprar</a>
@@ -150,7 +162,7 @@
               <div class="swiper-slide">
                 <div class="icons">
                   <i class="fa-solid fa-circle-arrow-left"></i>
-                    <img src="img/logo.png" alt="">
+                    <img src="/static/img/logo.png" alt="">
                     <i class="fa-regular fa-heart"></i>
                 </div>
               <div class="producto-content">
@@ -161,7 +173,7 @@
                     Al final tiene un gusto fresco y floral que crea una sensación redonda.</p>
                 </div> 
               <div class="producto-img">
-                <img src="./img/3.png" alt="">
+                <img src="./static/img/2.png" alt="">
               </div>
               </div>
             <a href="#" class="btn-1">Comprar</a>
@@ -169,7 +181,7 @@
               <div class="swiper-slide">
                 <div class="icons">
                   <i class="fa-solid fa-circle-arrow-left"></i>
-                    <img src="img/logo.png" alt="">
+                    <img src="/static/img/logo.png" alt="">
                     <i class="fa-regular fa-heart"></i>
                 </div>
               <div class="producto-content">
@@ -179,7 +191,63 @@
                   <p>De cuerpo medio, posee sin embargo un gusto muy suave. Enseguida se notan las notas herbáceas y florales..</p>
                 </div> 
               <div class="producto-img">
-                <img src="./img/2.png" alt="">
+                <img src="./static/img/3.png" alt="">
+              </div>
+              </div>
+            <a href="#" class="btn-1">Comprar</a>
+        
+            </div>
+              <div class="swiper-slide">
+                <div class="icons">
+                  <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="/static/img/logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+              <div class="producto-content">
+                <div class="producto-txt">
+                  <span>$49.999</span>
+                  <h3>Jack Daniels Old</h3>
+                  <p>Mezclado exclusivamente con whiskies madurados por al menos 12 años, reúne sabores de los 4 rincones de Escocia para crear una experiencia compleja, profunda y enriquecedora.</p>
+                </div> 
+              <div class="producto-img">
+                <img src="./static/img/1.png" alt="">
+              </div>
+              </div>
+            <a href="#" class="btn-1">Comprar</a>
+              </div>
+              <div class="swiper-slide">
+                <div class="icons">
+                  <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="/static/img/logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+              <div class="producto-content">
+                <div class="producto-txt">
+                  <span>$35.999</span>
+                  <h3>J.D. Single Barrel</h3>
+                  <p>Aromas suaves y elegantes de miel de brezo con un toque especiado. En boca está equilibrado con sabores dulces sutiles como el chocolate con leche, la manzana roja y la vainilla. 
+                    Al final tiene un gusto fresco y floral que crea una sensación redonda.</p>
+                </div> 
+              <div class="producto-img">
+                <img src="./static/img/2.png" alt="">
+              </div>
+              </div>
+            <a href="#" class="btn-1">Comprar</a>
+              </div>
+              <div class="swiper-slide">
+                <div class="icons">
+                  <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="./static/img/logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+              <div class="producto-content">
+                <div class="producto-txt">
+                  <span>$39.999</span>
+                  <h3>Jack Daniels Gentleman</h3>
+                  <p>De cuerpo medio, posee sin embargo un gusto muy suave. Enseguida se notan las notas herbáceas y florales..</p>
+                </div> 
+              <div class="producto-img">
+                <img src="./static/img/3.png" alt="">
               </div>
               </div>
             <a href="#" class="btn-1">Comprar</a>
@@ -198,7 +266,7 @@
                   <p>Mezclado exclusivamente con whiskies madurados por al menos 12 años, reúne sabores de los 4 rincones de Escocia para crear una experiencia compleja, profunda y enriquecedora.</p>
                 </div> 
               <div class="producto-img">
-                <img src="./img/1.png" alt="">
+                <img src="./static/img/1.png" alt="">
               </div>
               </div>
             <a href="#" class="btn-1">Comprar</a>
@@ -206,7 +274,7 @@
               <div class="swiper-slide">
                 <div class="icons">
                   <i class="fa-solid fa-circle-arrow-left"></i>
-                    <img src="img/logo.png" alt="">
+                    <img src="/static/img/logo.png" alt="">
                     <i class="fa-regular fa-heart"></i>
                 </div>
               <div class="producto-content">
@@ -217,7 +285,7 @@
                     Al final tiene un gusto fresco y floral que crea una sensación redonda.</p>
                 </div> 
               <div class="producto-img">
-                <img src="./img/3.png" alt="">
+                <img src="./static/img/2.png" alt="">
               </div>
               </div>
             <a href="#" class="btn-1">Comprar</a>
@@ -225,7 +293,7 @@
               <div class="swiper-slide">
                 <div class="icons">
                   <i class="fa-solid fa-circle-arrow-left"></i>
-                    <img src="img/logo.png" alt="">
+                    <img src="/static/img/logo.png" alt="">
                     <i class="fa-regular fa-heart"></i>
                 </div>
               <div class="producto-content">
@@ -235,63 +303,7 @@
                   <p>De cuerpo medio, posee sin embargo un gusto muy suave. Enseguida se notan las notas herbáceas y florales..</p>
                 </div> 
               <div class="producto-img">
-                <img src="./img/2.png" alt="">
-              </div>
-              </div>
-            <a href="#" class="btn-1">Comprar</a>
-        
-            </div>
-              <div class="swiper-slide">
-                <div class="icons">
-                  <i class="fa-solid fa-circle-arrow-left"></i>
-                    <img src="img/logo.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-              <div class="producto-content">
-                <div class="producto-txt">
-                  <span>$49.999</span>
-                  <h3>Jack Daniels Old</h3>
-                  <p>Mezclado exclusivamente con whiskies madurados por al menos 12 años, reúne sabores de los 4 rincones de Escocia para crear una experiencia compleja, profunda y enriquecedora.</p>
-                </div> 
-              <div class="producto-img">
-                <img src="./img/1.png" alt="">
-              </div>
-              </div>
-            <a href="#" class="btn-1">Comprar</a>
-              </div>
-              <div class="swiper-slide">
-                <div class="icons">
-                  <i class="fa-solid fa-circle-arrow-left"></i>
-                    <img src="img/logo.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-              <div class="producto-content">
-                <div class="producto-txt">
-                  <span>$35.999</span>
-                  <h3>J.D. Single Barrel</h3>
-                  <p>Aromas suaves y elegantes de miel de brezo con un toque especiado. En boca está equilibrado con sabores dulces sutiles como el chocolate con leche, la manzana roja y la vainilla. 
-                    Al final tiene un gusto fresco y floral que crea una sensación redonda.</p>
-                </div> 
-              <div class="producto-img">
-                <img src="./img/3.png" alt="">
-              </div>
-              </div>
-            <a href="#" class="btn-1">Comprar</a>
-              </div>
-              <div class="swiper-slide">
-                <div class="icons">
-                  <i class="fa-solid fa-circle-arrow-left"></i>
-                    <img src="img/logo.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-              <div class="producto-content">
-                <div class="producto-txt">
-                  <span>$39.999</span>
-                  <h3>Jack Daniels Gentleman</h3>
-                  <p>De cuerpo medio, posee sin embargo un gusto muy suave. Enseguida se notan las notas herbáceas y florales..</p>
-                </div> 
-              <div class="producto-img">
-                <img src="./img/2.png" alt="">
+                <img src="./static/img/3.png" alt="">
               </div>
               </div>
             <a href="#" class="btn-1">Comprar</a>

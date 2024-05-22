@@ -1,10 +1,13 @@
 header {
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 7vh;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     flex-direction: row;
+    top: -10;
     flex-wrap: nowrap;
     padding: 10px;
 
@@ -15,6 +18,10 @@ header {
 nav {
     width: 100vw;
     padding-right:25px ;
+}
+#login{
+    background-color: #c02d2dee;
+    border-radius: 20px;
 }
 
 .logo {
