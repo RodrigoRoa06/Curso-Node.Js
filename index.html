@@ -25,6 +25,7 @@
             <!--  Aqui va el menu de navegacion: Sobre nosotros, Ofertas, Productos, Iniciar Sesión-->
             <div class="container_nav">
                 <ul>
+                  <li><a href="#inicio"><i class="fa-solid fa-house"></i>inicio</a></li>
                     <li><a href="#sn"><i class="fa-solid fa-users"></i>Sobre nosotros</a></li>
                     <li><a href="#ofertas"><i class="fa-solid fa-percent"></i>Ofertas</a></li>
                     <li><a href="#productos"><i class="fa-solid fa-bottle-water"></i></i>Productos</a></li>
@@ -36,18 +37,10 @@
 
 
     <main>
-        <section id="sn" class="banner container">
+        <section id="inicio" class="banner container">
             <div class="banner_content">
                 <h1>Almacen lo de Matias</h1>
-                <p>Tu lugar de confianza para abastecer tus necesidades diarias. Ofrecemos una amplia variedad de productos, desde alimentos básicos hasta artículos de limpieza y más.</p>
-                <p>Visítanos en:</p>
-                <address>
-                    <strong>Dirección:</strong> DBN Mar del Plata Buenos Aires AR, Martín Miguel de Güemes 4702<br>
-                    <strong>Teléfono:</strong> 0223 674-4094<br>
-                    <strong>Horario:</strong> Abierto todos los días de 8:00 a 22:00 hs.
-                </address>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d392.84049454046885!2d-57.5533477!3d-38.0302144!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584ddd5557c6993%3A0x1a3f4ce41db48946!2sLo%20de%20Mat%C3%ADas!5e0!3m2!1ses-419!2sar!4v1715713394533!5m2!1ses-419!2sar" width="300" height="200" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer"></iframe>
-                
+               
             </div>
             <!-- Video de fondo -->
             <div class="sombra_video"></div>
@@ -55,6 +48,24 @@
                 <source id="video_banner" src="./static/video/video_banner.mp4" type="video/mp4">
                 Tu navegador no soporta la etiqueta de video.
             </video>
+        </section>
+        <section id="sn" class="container">
+          <h2>Tu lugar de confianza para abastecer tus necesidades diarias. Ofrecemos una amplia variedad de productos, desde alimentos básicos hasta artículos de limpieza y más.</h2>
+          <div class="info-container">
+
+            <div class="info"> 
+            <p>Visítanos en:</p>
+            <address>
+                <strong>Dirección:</strong> DBN Mar del Plata Buenos Aires AR, Martín Miguel de Güemes 4702<br>
+                <strong>Teléfono:</strong> 0223 674-4094<br>
+                <strong>Horario:</strong> Abierto todos los días de 8:00 a 22:00 hs.
+            </address>
+            </div>
+          <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d392.84049454046885!2d-57.5533477!3d-38.0302144!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584ddd5557c6993%3A0x1a3f4ce41db48946!2sLo%20de%20Mat%C3%ADas!5e0!3m2!1ses-419!2sar!4v1715713394533!5m2!1ses-419!2sar" width="300" height="200" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer"></iframe>
+
+          </div>
+        </div>
         </section>
         
                 <section id="ofertas" class="ofertas">
@@ -66,6 +77,7 @@
                           <img src="./static/img/fideos luchetti.png" alt="Producto 1">
                           <p class="descripcion">Tirabuzon 500gr</p>
                           <span class="precio">$1.499</span>
+                          <span class="precio-ant">$2.000</span>
               
                           
                         </div>
@@ -75,6 +87,8 @@
                           <img src="./static/img/aceite cocinero.png" alt="Producto 1">
                           <p class="descripcion">Aceite 1.5lt</p>
                           <span class="precio">$3.599</span>
+                          <span class="precio-ant">$4.000</span>
+
                         </div>
                       </div>
                       <div class ="item">
@@ -82,6 +96,8 @@
                           <img src="./static/img/pure de tomate.png" alt="Producto 1">
                           <p class="descripcion">Puré de tomate 500cc.</p>
                           <span class="precio">$999</span>
+                          <span class="precio-ant">$1.300</span>
+
                         </div>
                       </div>
                       <div class ="item">
@@ -89,20 +105,26 @@
                           <img src="./static/img/lamorenita.png" alt="Producto 1">
                           <p class="descripcion">Café 500gr.</p>
                           <span class="precio">$3.999</span>
+                          <span class="precio-ant">$4.001</span>
+
                         </div>
                       </div>
                       <div class ="item">
                         <div class="contenedor-foto">
                           <img src="./static/img/fideos luchetti.png" alt="Producto 1">
                           <p class="descripcion">Tirabuzón 1kg.</p>
-                          <span class="precio">$3.999</span>
+                          <span class="precio">$1.999</span>
+                          <span class="precio-ant">$2.310</span>
+                          
                         </div>
                       </div>
                       <div class ="item">
                         <div class="contenedor-foto">
                           <img src="./static/img/arroz gallo.png" alt="Producto 1">
                           <p class="descripcion">Arroz 1kg.</p>
-                          <span class="precio">$3.599</span>
+                          <span class="precio">$1.599</span>
+                          <span class="precio-ant">$2.001</span>
+
                         </div>
                       </div>
               

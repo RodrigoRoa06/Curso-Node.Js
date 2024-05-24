@@ -2,12 +2,12 @@
 @import url(banner.css);
 @import url(productos.css);
 @import url(footer.css);
+@import url(sn.css);
 
 :root {
-  --color-primario: #fcfcfc;
-  --color-secundario: #3E3E3E;
-  --color-terciario: #1c94c4;
-
+  --color-primario: #9DAEBE;
+  --color-secundario: #313131;
+  --color-terciario: #4f3bff;
   --color-sombra-1: #e4e4e4d7;
   --color-fuente-1: #222222;
   --color-fuente-2: #eeeeee;
@@ -20,7 +20,6 @@
     --tamaño-fuente-3: 20px;
     --tamaño-fuente-4: 15px;
     --tamaño-fuente-5: 10px;
-    --tamaño-slide: 120px;
     --universal-gradient:linear-gradient(to right, var(--color-terciario) 90%,var(--color-fuente-1));
   
   }
@@ -34,3 +33,12 @@
     width: 100vw;
   }
   
+  section{
+    background-color:var(--color-secundario);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:var(--color-primario);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }

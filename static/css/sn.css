@@ -1,0 +1,29 @@
+#sn{
+    background:var(--color-primario);
+    padding: 10px;
+
+}
+.info-container{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.info{
+    width: 46vw;
+    color: var(--color-fuente-1);
+}
+.mapa{
+    padding: 0 20px;
+}
+address{
+    font-size: var(--tamaño-fuente-3);
+}
+#sn h2{
+    text-align: center;
+    color: var(--color-fuente-1);
+    font-size: var(--tamaño-fuente-2);
+}

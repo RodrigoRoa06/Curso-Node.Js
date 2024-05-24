@@ -1,31 +1,9 @@
-  
-:root{
-  --color-primario:var(--color-primario);
-  --color-secundario:var(--color-secundario);
-  --color-terciario:var(--color-terciario);
-
-  --color-fuente-1:#222222;
-  --color-fuente-2:#eeeeee;
-}
 
 /* GALERIA movil */
 
 
 
-section {
-  position: relative;
-  height: 100vh;
-}
 
-section{
-  background-color:var(--color-secundario);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  color:var(--color-primario);
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 .swiper{
   width: 100%;
   padding: 50px 0 50px 0;
@@ -34,7 +12,7 @@ section{
 .swiper-slide{
   width: 10vw;
   height: 500px;
-  background-color:var(--color-terciario);
+  background-color:var(--color-secundario);
   box-shadow: 0 0 20px rgba(0, 0 , 0, 0.4);
   text-align: center;
   padding: 10px;
@@ -113,8 +91,7 @@ section{
   
   /* SECTION OFERTAS  */
 .ofertas{
-  margin: auto;
-  padding: 0;
+  
   box-sizing: border-box;
   font-family: sans-serif ;
 }
@@ -133,23 +110,29 @@ section{
 .mostrador{
   width: 100vw;
   transition: .5s ease;
+  
+
 }
 .mostrador .fila{
+  padding:10px 0;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+  background-color:var(--color-terciario);
 }
 
 .mostrador .fila .item{
+  padding: 10px;
   max-width: 210px;
-  padding: 30px;
   height: auto;
   text-align: center; 
   object-fit: cover;
-  margin: 0 10px;
   cursor: pointer;
   border-radius: 8px;
   transition: .3s;
+  background-color: var(--color-primario);
+  margin: 1px 2px;
 }
 .mostrador .fila .item:hover{
   background-color: #1e1e1e;
@@ -157,16 +140,16 @@ section{
 .mostrador .fila .item img{
   width: 100%;
   margin: 30px 0;
-  height: auto;
+  height: 200px;  
 }
 .mostrador .fila .item .descripcion{
-  color: var(--color-fuente-2);
+  color: var(--color-fuente-1);
   font-weight: bold;
 }
 .mostrador .fila .item .precio{
-  color: #ff0000;
-  font-weight: lighter;
-  font-size: 15px;
+  color: var(--color-fuente-1);
+  font-size: 18px;
+  
 }
   
   .descuento {
@@ -179,4 +162,8 @@ section{
     right: 10px;
   }
   
+  .precio-ant{
+    color: #ff0000;
+    text-decoration: line-through;
+  }
   
