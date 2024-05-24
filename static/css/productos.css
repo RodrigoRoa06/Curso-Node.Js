@@ -151,17 +151,6 @@
   font-size: 18px;
   
 }
-  
-  .descuento {
-    background-color: #ff0000;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-  
   .precio-ant{
     color: #ff0000;
     text-decoration: line-through;

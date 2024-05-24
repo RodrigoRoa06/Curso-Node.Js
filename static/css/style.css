@@ -5,10 +5,10 @@
 @import url(sn.css);
 
 :root {
-  --color-primario: #9DAEBE;
+  --color-primario: #d2d6da;
   --color-secundario: #313131;
-  --color-terciario: #4f3bff;
-  --color-sombra-1: #e4e4e4d7;
+  --color-terciario: #3724e4;
+  --color-sombra-1: #b4b4b4d7;
   --color-fuente-1: #222222;
   --color-fuente-2: #eeeeee;
 
@@ -20,7 +20,6 @@
     --tamaño-fuente-3: 20px;
     --tamaño-fuente-4: 15px;
     --tamaño-fuente-5: 10px;
-    --universal-gradient:linear-gradient(to right, var(--color-terciario) 90%,var(--color-fuente-1));
   
   }
 
